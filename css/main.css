@@ -1,0 +1,206 @@
+body {
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+
+.container-wrapper{}
+
+
+.container-wrapper-red{
+    background-color:#f05f40;
+    color: white;
+}
+
+
+.table-container {
+    margin: 0% 20%;
+}
+
+
+
+
+.alert-container {}
+
+.callout-container {
+    height: 100vh;
+
+
+    background: url("../images/Glass_of_milk.jpg") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.opaque-overaly {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    
+    z-index: 10;
+}
+
+.quote-container {}
+
+.features-container {}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+/*Jumbotron*/
+
+.jumbotron-hearder {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #fff;
+}
+
+
+.block-divider {
+    background-color: #9d3700;
+    height: 3px;
+    width: 78%;
+    border-radius: 50%;
+}
+
+.block-divider-quot {
+    background-color: #444;
+}
+
+.block-divider-feature {
+    background-color: #fff;
+}
+
+
+.containe-container{
+    padding: 50px 0px;
+}
+
+/*Button*/
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--red {
+    color: white;
+    background-color: #f05f40;
+    border-color: #f05f40;
+}
+
+.btn--red:hover {
+    background-color: #c9462a;
+    border-color: #c9462a;
+}
+
+.btn:hover {
+    color: #ffbdbd;
+}
+
+/*Navbar*/
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .45);
+}
+
+.navbar-toggler {
+    border: 0;
+}
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    font-weight: bold;
+}
+
+
+/*Alert*/
+
+.alert-container .col-12{
+    padding:0;
+}
+
+.alert-warning {
+    color: #9c6603;
+    background-color: #ffe698;
+    border-color: #ffe698;
+    margin: 0;
+    padding: 0 20px;
+    border-radius: 0;
+    
+}
+/*/Alert*/
+/*/Navbar*/
+
+.page-header{
+    margin-bottom: 25px;
+    border-bottom:0;
+    text-align: center;
+}
+
+
+/*.page-header h2{*/
+/*    margin-top: 0;*/
+/*}*/
+
+.feature{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+.feature i{
+    margin-bottom: 20px;
+    font-size: 35px;
+    line-height: 45px;
+}
+
+.feature .btn{
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    color: #f05f40;
+}
+
+
+
+
+
+
+
+
